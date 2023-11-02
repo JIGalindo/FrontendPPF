@@ -37,7 +37,7 @@ const CarList = () => {
     }
   };
 
-  const navigate = useNavigate(); // Obtén el objeto history para navegación
+  const navigate = useNavigate();
 
   const handleUpdate = (id) => {
     navigate(`/api/car/update/${id}`);

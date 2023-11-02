@@ -27,15 +27,13 @@ const CarRegistration = () => {
       });
 
       if (response.status === 201) {
-        // La solicitud fue exitosa (código de respuesta 201), puedes manejarlo aquí
-        // Por ejemplo, mostrar un mensaje de éxito o redirigir a otra página
+        // La solicitud fue exitosa (código de respuesta 201)
         console.log("Registro exitoso");
       } else {
-        // La solicitud no fue exitosa, maneja los errores aquí
+        // La solicitud no fue exitosa
         console.error("Error en la solicitud");
       }
     } catch (error) {
-      // Maneja errores de red o solicitud aquí
       console.error("Error en la solicitud", error);
     }
   };

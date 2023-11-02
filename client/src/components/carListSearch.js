@@ -16,7 +16,7 @@ const CarListSearch= () => {
     
     }, []);
 
-    const navigate = useNavigate();// Obtén el objeto history para navegación
+    const navigate = useNavigate();
 
     const handleCreate= (id) => {
       navigate(`/api/recordcreate/${id}`);
